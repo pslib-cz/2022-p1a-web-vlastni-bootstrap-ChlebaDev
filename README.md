@@ -9,7 +9,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 
 ### HTML a struktura souborů
 
-* [ ] Alespoň 3 vzájemně prolinkované stránky nebo jedna singlepage s odkazy na své sekce
+* [x] Alespoň 3 vzájemně prolinkované stránky nebo jedna singlepage s odkazy na své sekce
 * [ ] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [ ] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
 * [ ] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
@@ -32,8 +32,8 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [ ] modifikovaný styl Bootstrapu (https://bootstrap.build/themes, https://bootstrap.build/app , https://mdbootstrap.com/docs/jquery/getting-started/installation-guide/ )
 
 ### Estetická kritéria
-* [ ] stránka je hezká
-* [ ] prvky na sobě nejsou nalepené a je mezi nimi rozumná mezera
+* [x] stránka je hezká
+* [x] prvky na sobě nejsou nalepené a je mezi nimi rozumná mezera
 
 ## Reference
 
