@@ -6,9 +6,10 @@
     <title>Bootstrap by Chleba</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/colors.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-full" style="background-color: #4B0082">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#">Liberecestování</a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -19,30 +20,28 @@
               <a class="nav-link active" aria-current="page" href="./liberec.html">Liberec</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./liberec.html">Okolí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./liberec.html">Kontakt</a>
+              <a class="nav-link active" aria-current="page" href="./kontakt.html">Kontakt</a>
             </li>
           </ul>
         </div>
       </nav>
 
+      <main>
       <section class="bg-light py-5">
         <div class="container">
           <div class="row align-items-center">
            <div class="col-lg-6 order-lg-2"><img src="./assets/images/pic1.jpg" class="img-fluid rounded-3" alt="liberecká radnice"></div>
              <div class="col-lg-6">
               <article>
-                <div class="alert alert-success" align="center">
+                <div class="alert" style="background-color: #f2dfff" align="center">
                   Rady a tipy jak a kde cestovat po  <span class="fw-bold text-decoration-underline">libereckém kraji</span>.
                 </div>
                 <div class="mb-5"></div>
-                <div class="alert alert-success" align="center">
+                <div class="alert" style="background-color: #f2dfff" align="center">
                   Informace o nejbližších spojích <span class="fw-bold text-decoration-underline">MHD</span>.
                 </div>
                 <div class="mb-5"></div>
-                <div class="alert alert-success" align="center">
+                <div class="alert" style="background-color: #f2dfff" align="center">
                   Základní informace o destinacích
                 </div>
               </article>
@@ -75,7 +74,6 @@
 
           <div class="row justify-content-center w-75 mx-auto">
             <div class="col-12 col-lg-8">
-              
                 <div id="team-carousel" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#team-carousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
@@ -85,28 +83,28 @@
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item">
-                      <img src="./assets/images/clen1.png" class="d-block w-100" alt="Člen projektu">
+                      <img src="./assets/images/cleni/clen1.png" class="d-block w-100" alt="Člen projektu">
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Kristýna Menšíková</h5>
                         <p>Spoluzakladatelka projektu</p>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="./assets/images/clen2.png" class="d-block w-100" alt="Fotograf">
+                      <img src="./assets/images/cleni/clen2.png" class="d-block w-100" alt="Fotograf">
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Karel Prodělal</h5>
                         <p>Fotograf</p>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="./assets/images/clen3.png" class="d-block w-100" alt="Cestovatelka">
+                      <img src="./assets/images/cleni/clen3.png" class="d-block w-100" alt="Cestovatelka">
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Zuzana Kukulová</h5>
                         <p>Vášnívá výletnice</p>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="./assets/images/clen4.png" class="d-block w-100" alt="Ajťák">
+                      <img src="./assets/images/cleni/clen4.png" class="d-block w-100" alt="Ajťák">
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Jonáš Traktor Trávníček</h5>
                         <p>Designer, správce soc. sítí</p>
@@ -127,6 +125,7 @@
               </div>
         </section>
       </main>
+
 </body>
 </html>
 
