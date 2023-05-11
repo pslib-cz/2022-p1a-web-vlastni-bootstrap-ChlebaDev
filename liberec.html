@@ -2,20 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Liberec</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap by Chleba</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./variables.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <style type="text/css" id="operaUserStyle"></style>
   </head>
   <body>
 
     <div class="container-fluid p-0">
       <div class="container-fluid px-0 sticky-top">
       <header>
-    <nav class="navbar navbar-expand-md navbar-dark navbar-full" style="background-color: #4B0082">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-full bg-primary">
       <div class="container-fluid justify-content-start px-0">
       <a class="navbar-brand ms-3 me-2 fw-bold" href="./index.html">Liberecestování</a>
-      <button class="navbar-toggler ms-5 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ms-auto me-3 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -43,65 +46,91 @@
       <section class="bg-light text-center">
         <h1 class="text-center fw-bolder py-5">Destinace</h1>
         <div class="container">
-          <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <div class="col mb-3">
-              <div class="card h-100">
-                <img src="./assets/images/destinace/pic2.webp" class="card-img-top img-fluid" alt="Přehrada">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 col-md-4 mb-3">
+              <div class="card border-0">
+                <img src="./assets/images/destinace/prehrada.jpg" class="card-img-top img-fluid" alt="Přehrada">
                 <div class="card-body">
                   <p class="fs-4 fw-bold">Harcovská přehrada</p>
-                    <p class="card-text">Doprava: Autobusová zastávka, <span class="fw-bold text-decoration-underline" style="background-color: #f2dfff">Husova</span>
+                    <p class="card-text">Autobusová zastávka, <span class="fw-bold text-decoration-underline bg-secondary">Husova</span>
                 </div>
               </div>
             </div>
-            <div class="col col-sm-6 col-md-4 mb-3">
-              <div class="card h-100">
-                <img src="./assets/images/destinace/pic3.webp" class="card-img-top img-fluid" alt="Malevil resort">
+            <div class="col-lg-4 col-sm-6 col-md-4 mb-3">
+              <div class="card border-0">
+                <img src="./assets/images/destinace/malevil.jpg" class="card-img-top img-fluid" alt="Malevil resort">
                 <div class="card-body">
                   <p class="fs-4 fw-bold">Malevil</p>
-                    <p class="card-text">Doprava: Vlaková stanice, <span class="fw-bold text-decoration-underline" style="background-color: #f2dfff">Jablonné v Podještědí</span>
+                    <p class="card-text">Vlaková stanice, <span class="fw-bold text-decoration-underline bg-secondary">Jablonné v Podještědí</span>
                 </div>
               </div>
             </div>
-            <div class="col col-sm-6 col-md-4 mb-3">
-              <div class="card h-100">
-                <img src="./assets/images/destinace/pic4.jpg" class="card-img-top img-fluid" alt="Ještěd">
+            <div class="col-lg-4 col-sm-6 col-md-4 mb-3">
+              <div class="card border-0">
+                <img src="./assets/images/destinace/jested.jpg" class="card-img-top img-fluid" alt="Ještěd">
                 <div class="card-body">
                   <p class="fs-4 fw-bold">Ještěd</p>
-                    <p class="card-text">Doprava: Autobusová zastávka, <span class="fw-bold text-decoration-underline" style="background-color: #f2dfff">Horný Hanychov, u lanové dráhy</span>
+                    <p class="card-text">Autobus. zastávka, <span class="fw-bold text-decoration-underline bg-secondary">Horný Hanychov, u lanové dráhy</span>
                 </div>
               </div>
             </div>
-            <div class="col col-sm-6 col-md-4 mb-3">
-              <div class="card h-100">
-                <img src="./assets/images/destinace/pic5.jpg" class="card-img-top img-fluid" alt="Zámek">
+            <div class="col-lg-4 col-sm-6 col-md-4 mb-3">
+              <div class="card border-0">
+                <img src="./assets/images/destinace/zamek.jpg" class="card-img-top img-fluid" alt="Zámek">
                 <div class="card-body">
                   <p class="fs-4 fw-bold">Liberecký zámek</p>
-                    <p class="card-text">Doprava: Tramvajová zastávka, <span class="fw-bold text-decoration-underline" style="background-color: #f2dfff">Šaldovo Náměstí</span>
+                    <p class="card-text">Tramvajová zastávka, <span class="fw-bold text-decoration-underline bg-secondary">Šaldovo Náměstí</span>
                 </div>
               </div>
             </div>
-            <div class="col col-sm-6 col-md-4 mb-3">
-              <div class="card h-100">
-                <img src="./assets/images/destinace/pic6.jpg" class="card-img-top img-fluid" alt="Zoo">
+            <div class="col-lg-4 col-sm-6 col-md-4 mb-3">
+              <div class="card border-0">
+                <img src="./assets/images/destinace/zoo.jpg" class="card-img-top img-fluid" alt="Zoo">
                 <div class="card-body">
                   <p class="fs-4 fw-bold">Liberecká Zoo</p>
-                    <p class="card-text">Doprava: Tramvajová zastávka, <span class="fw-bold text-decoration-underline" style="background-color: #f2dfff">Lidové Sady</span>
+                    <p class="card-text">Tramvajová zastávka, <span class="fw-bold text-decoration-underline bg-secondary">Lidové Sady</span>
                 </div>
               </div>
             </div>
-            <div class="col col-sm-6 col-md-4 mb-3">
-              <div class="card h-100">
-                <img src="./assets/images/destinace/pic7.jpg" class="card-img-top img-fluid" alt="Lázně">
+            <div class="col-lg-4 col-sm-6 col-md-4 mb-3">
+              <div class="card border-0">
+                <img src="./assets/images/destinace/lazne.jpg" class="card-img-top img-fluid" alt="Lázně">
                 <div class="card-body">
                   <p class="fs-4 fw-bold">Galerie lázně</p>
-                    <p class="card-text">Doprava: Tramvajová zastávka, <span class="fw-bold text-decoration-underline" style="background-color: #f2dfff">Muzeum, Galerie lázně</span>
+                    <p class="card-text">Tramvajová zastávka, <span class="fw-bold text-decoration-underline bg-secondary">Muzeum, Galerie lázně</span>
                 </div>
               </div>
+              <div class="mb-5"></div>
             </div>
           </div>
         </div>
       </section>
+      
     </main>
+
+    <footer class="border-top">
+      <div class="container py-3" style="max-width: 900px;">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="fs-4 text-center">Navštivte náš Instagram</h3>
+            <div class="social-icons text-center" style="font-size: 30px;">
+              <a href="https://www.instagram.com" class="me-3"><i class="bi bi-instagram text-dark" ></i></a>
+              <a href="https://pslib.cz" class="me-3"><i class="bi bi-emoji-neutral-fill text-dark"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3 class="fs-4">Toto jsme my</h3>
+            <p>nám. Dr. E. Beneše 3/4, Perštýn<br>
+            Liberec, Česká republika 460 01<br>
+            Email: libere@cestovani.com</p>
+          </div>
+          <div class="col-md-4 text-center mt-5">
+            <p>© 2023 Liberecestování</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
   </body>
 </html>
 

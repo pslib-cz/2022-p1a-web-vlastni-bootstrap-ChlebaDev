@@ -2,20 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap by Chleba</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./variables.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <style type="text/css" id="operaUserStyle"></style>
   </head>
   <body>
-
+    
     <div class="container-fluid p-0">
         <div class="container-fluid px-0 sticky-top">
         <header>
-      <nav class="navbar navbar-expand-md navbar-dark navbar-full" style="background-color: #4B0082">
+      <nav class="navbar navbar-expand-md navbar-dark navbar-full bg-primary">
         <div class="container-fluid justify-content-start px-0">
         <a class="navbar-brand ms-3 me-2 fw-bold" href="./index.html">Liberecestování</a>
-        <button class="navbar-toggler ms-5 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ms-auto me-3 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,15 +52,15 @@
               <div class="col-lg-6 col-md-8 col-sm-12">
                 <div class="form-group">
                     <label for="nameInput" class="col-form-label">Jméno a přijmení</label>
-                    <input type="text" class="form-control" id="nameInput" placeholder="Jméno Přijmení">
+                    <input type="text" class="form-control" id="nameInput" placeholder="ex. Jan Maňhal">
                   </div>
                 <div class="form-group">
                   <label for="emailInput" class="col-form-label">E-mail</label>
-                  <input type="text" class="form-control" id="emailInput" placeholder="E-mail">
+                  <input type="text" class="form-control" id="emailInput" placeholder="ex. mamradvlaky@gmail.com">
                 </div>
                 <div class="form-group">
                   <label for="phoneInput" class="col-form-label">Telefonní číslo</label>
-                  <input type="text" class="form-control" id="phoneInput" placeholder="Telefonní číslo">
+                  <input type="text" class="form-control" id="phoneInput" placeholder="ex. 420 727 666">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1" class="form-label">Napište nám něco</label>
@@ -67,11 +70,83 @@
             </div>
             <div class="row justify-content-center py-3">
               <div class="col-lg-6 col-md-8 col-sm-12">
-                <button type="button" class="btn" style="background-color: #f2dfff">Odeslat</button>
+                <button type="button" class="btn bg-secondary" >Odeslat</button>
               </div>
             </div>
           </div>
         </section>
+
+        <div class="mb-4"></div>
+
+        <main>
+          <section class="bg-light text-center">
+            <h1 class="text-center fw-bolder py-5">Naši členi</h1>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                  <div class="card border-0">
+                    <img src="./assets/images/cleni/clen1.png" class="card-img-top img-fluid" alt="1. člen">
+                    <div class="card-body">
+                      <p class="fs-5 fw-semibold">Kristýna Menšíková</p>
+                        <p class="card-text"><span class="fw-bold bg-secondary">Spoluzakladatelka projektu</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                  <div class="card border-0">
+                    <img src="./assets/images/cleni/clen2.png" class="card-img-top img-fluid" alt="2. člen">
+                    <div class="card-body">
+                      <p class="fs-5 fw-semibold">Karel Prodělal</p>
+                        <p class="card-text"><span class="fw-bold bg-secondary">Fotograf</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                  <div class="card border-0">
+                    <img src="./assets/images/cleni/clen3.png" class="card-img-top img-fluid" alt="3. člen">
+                    <div class="card-body">
+                      <p class="fs-5 fw-semibold">Zuzuna Kukulová</p>
+                        <p class="card-text"><span class="fw-bold bg-secondary">Vášnivá výletnice</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-4 mb-3">
+                  <div class="card border-0">
+                    <img src="./assets/images/cleni/clen4.png" class="card-img-top img-fluid" alt="4. člen">
+                    <div class="card-body">
+                      <p class="fs-5 fw-semibold">Jonáš Traktor Trávníček</p>
+                        <p class="card-text"><span class="fw-bold bg-secondary">Designer, správce soc. sítí</span>
+                    </div>
+                  </div>
+                  <div class="mb-5"></div>
+                </div>
+              </div>
+            </div>
+          </section>
        </main>
+
+       <footer class="border-top">
+        <div class="container py-3" style="max-width: 900px;">
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="fs-4 text-center">Navštivte náš Instagram</h3>
+              <div class="social-icons text-center" style="font-size: 30px;">
+                <a href="https://www.instagram.com" class="me-3"><i class="bi bi-instagram text-dark" ></i></a>
+                <a href="https://pslib.cz" class="me-3"><i class="bi bi-emoji-neutral-fill text-dark"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <h3 class="fs-4">Toto jsme my</h3>
+              <p>nám. Dr. E. Beneše 3/4, Perštýn<br>
+              Liberec, Česká republika 460 01<br>
+              Email: libere@cestovani.com</p>
+            </div>
+            <div class="col-md-4 text-center mt-5">
+              <p>© 2023 Liberecestování</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
   </body>
 </html>
